@@ -1,23 +1,20 @@
 /**
- * costume.ino
- *
- * The sketch for the arduino.  It's renamed by the script/install script to
- * match the name of the directory it's being put into.
+ * shirt.ino
  */
 
 #include "custom.h"
 
 #include <Adafruit_NeoPixel.h>
 
-#include "serial.h"
 #include "actions.h"
+#include "SerialHelper.h"
 
-#define LOOP_DELAY               50
-#define CURRENT_ACTION_OFF_DELAY 50
+#define LOOP_DELAY               10
+#define CURRENT_ACTION_OFF_DELAY 10
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
-serialEvent* msg;
-Action* currentAction;
+SerialHelper serialHelper;
+Action* activeAction;
 
 void setup() {
   Bean.setBeanName(NAME);
@@ -25,29 +22,38 @@ void setup() {
   Serial.begin(9600);
   Serial.flush();
   pixels.begin();
+
+  serialHelper = SerialHelper();
 }
 
 void loop() {
-  if (readSerial(msg)) { // readSerial returns true if we parsed a new serial message
-    if (currentAction) {
-      while (currentAction->off()) {
+  if (serialHelper.readLine()) {
+
+    // if there is an active action when we get a new command then call it until it completes
+    if (activeAction) {
+      while (activeAction->off()) {
         delay(CURRENT_ACTION_OFF_DELAY);
       }
-      delete currentAction;
+      delete activeAction;
     }
 
-    switch (msg->type) {
+    // create a new action
+    Serial.println(serialHelper.getCommand());
+    switch (serialHelper.getCommand()) {
       case BLINK_BEAN:
-        currentAction = new BlinkBean(msg->params);
+        activeAction = new BlinkBean(serialHelper.getParams());
         break;
     }
 
   } else {
-    if (currentAction) {
-      if (!currentAction->tick()) {
-        delete currentAction;
+
+    // if we did not get a new command from serial then move onto the next frame of the
+    if (activeAction) {
+      if (!activeAction->tick()) {
+        delete activeAction;
       }
       delay(LOOP_DELAY);
     }
+
   }
 }
