@@ -1,0 +1,2026 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"def",
+				"define	(Action.h)"
+			],
+			[
+				"Action",
+				"ActionType	(actions.h)"
+			],
+			[
+				"inc",
+				"include	(shirt.ino)"
+			],
+			[
+				"ser",
+				"serialEvent"
+			],
+			[
+				"Ser",
+				"SerialEvent"
+			],
+			[
+				"seria",
+				"serialMessage"
+			],
+			[
+				"par",
+				"parsingType"
+			],
+			[
+				"B",
+				"BlinkBean"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"ACTION",
+				"ACTION_TYPE_BLINK_BEAN"
+			],
+			[
+				"NUM",
+				"NUM_TOKENS"
+			],
+			[
+				"jsm",
+				"jsmntok_t"
+			],
+			[
+				"type",
+				"typeTemp"
+			],
+			[
+				"set",
+				"setPixels"
+			],
+			[
+				"json",
+				"jsonBuffer"
+			],
+			[
+				"print",
+				"println"
+			],
+			[
+				"thing",
+				"thingToSee"
+			],
+			[
+				"settin",
+				"setting"
+			],
+			[
+				"index",
+				"indexOfThingThatIsSelected"
+			],
+			[
+				"name",
+				"nameOfThingIWantToGoTo"
+			],
+			[
+				"cli",
+				"cliOutput"
+			],
+			[
+				"ini",
+				"initialSettings"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"test",
+				"TEST_ROOT"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"new",
+				"newVal"
+			],
+			[
+				"sett",
+				"setting"
+			],
+			[
+				"setting",
+				"settingOptions"
+			],
+			[
+				"setit",
+				"setting"
+			],
+			[
+				"ADD",
+				"ADD_INVOICE"
+			],
+			[
+				"prop",
+				"prompt"
+			],
+			[
+				"ins",
+				"instanciate"
+			],
+			[
+				"coll",
+				"collectionName"
+			],
+			[
+				"get",
+				"getInstance"
+			],
+			[
+				"model",
+				"modelStatcMethods"
+			],
+			[
+				"c",
+				"collections"
+			],
+			[
+				"mod",
+				"moduleName"
+			],
+			[
+				"Toy",
+				"ToyManager"
+			],
+			[
+				"NSCi",
+				"NSDictionary	(BeanData.h)"
+			],
+			[
+				"de",
+				"delegate"
+			],
+			[
+				"out",
+				"outputToys"
+			],
+			[
+				"inpt",
+				"inputToyDataSource"
+			],
+			[
+				"outpu",
+				"outputToyDataSource"
+			],
+			[
+				"toys",
+				"toysTable	(styles.js)"
+			],
+			[
+				"input",
+				"inputToys"
+			],
+			[
+				"outp",
+				"outputToys	(ToyStore.js)"
+			],
+			[
+				"inp",
+				"inputToys"
+			],
+			[
+				"em",
+				"emitChange"
+			],
+			[
+				"Toys",
+				"ToyDispatcher"
+			],
+			[
+				"val",
+				"values"
+			],
+			[
+				"bin",
+				"binDir"
+			],
+			[
+				"ali",
+				"alias"
+			],
+			[
+				"EGYP",
+				"EGYPTIAN_INVERTED	(config.h)"
+			],
+			[
+				"RIGHT",
+				"RIGHT_MAX	(config.h)"
+			],
+			[
+				"meetup",
+				"meetupurl	(_config.yml)"
+			],
+			[
+				"DOU",
+				"DOUBLE_WAVE_PARAMS	(config.h)"
+			],
+			[
+				"wav",
+				"wave_action"
+			],
+			[
+				"action",
+				"actionFunc	(actionRegistry.h)"
+			],
+			[
+				"discvery",
+				"discoveryStrats"
+			],
+			[
+				"desc",
+				"describe"
+			],
+			[
+				"t",
+				"true"
+			],
+			[
+				"con",
+				"console	(build.js)"
+			],
+			[
+				"Preo",
+				"Promise	(toys.spec.js)"
+			],
+			[
+				"dev",
+				"devtool"
+			],
+			[
+				"web",
+				"webpack"
+			],
+			[
+				"kar",
+				"karmaRunner"
+			],
+			[
+				"SLIDER",
+				"SLIDERS"
+			],
+			[
+				"Sli",
+				"Slider::val"
+			],
+			[
+				"min",
+				"min_val"
+			],
+			[
+				"max",
+				"max_val"
+			],
+			[
+				"SLI",
+				"SLIDERS"
+			],
+			[
+				"HUE_",
+				"HUE_HUB_IP_ADDRESS"
+			],
+			[
+				"HUR",
+				"HUE_GROUP_NAME"
+			],
+			[
+				"prin",
+				"print"
+			],
+			[
+				"slider",
+				"slider_vals"
+			],
+			[
+				"gulp",
+				"gulpUtil"
+			],
+			[
+				"bro",
+				"browserify	(package.json)"
+			],
+			[
+				"Conn",
+				"ConnectionManagerConfig"
+			],
+			[
+				"sub",
+				"submission"
+			],
+			[
+				"str",
+				"stringComplete"
+			],
+			[
+				"turn",
+				"turn_on"
+			],
+			[
+				"button_2",
+				"button_2_pressed"
+			],
+			[
+				"button",
+				"button_1"
+			],
+			[
+				"lights",
+				"lights_on"
+			],
+			[
+				"conn",
+				"connect"
+			],
+			[
+				"conne",
+				"connected"
+			],
+			[
+				"direct",
+				"directions"
+			],
+			[
+				"back",
+				"background-attachment"
+			],
+			[
+				"cy",
+				"cycle"
+			],
+			[
+				"for",
+				"fourthPhase"
+			],
+			[
+				"leftW",
+				"leftWave"
+			],
+			[
+				"lef",
+				"leftWave2"
+			],
+			[
+				"left",
+				"leftWave3"
+			],
+			[
+				"le",
+				"leftWave"
+			],
+			[
+				"right",
+				"rightWave2"
+			],
+			[
+				"sec",
+				"secondThingResult"
+			],
+			[
+				"first",
+				"firstThingDone"
+			],
+			[
+				"product",
+				"productBuilder"
+			],
+			[
+				"frame",
+				"frame_to_hsl"
+			],
+			[
+				"ip",
+				"import"
+			],
+			[
+				"fra",
+				"frame_to_hsl"
+			],
+			[
+				"color",
+				"color_to_lightness"
+			],
+			[
+				"update",
+				"update_light"
+			],
+			[
+				"light",
+				"light_id"
+			],
+			[
+				"ligh",
+				"light"
+			],
+			[
+				"hue_",
+				"hue_lights"
+			],
+			[
+				"hue",
+				"hue_user"
+			],
+			[
+				"hu",
+				"hue_ip"
+			],
+			[
+				"onRedirec",
+				"onRedirectCallbacks"
+			],
+			[
+				"grant",
+				"grantId"
+			],
+			[
+				"mock",
+				"mockFlow"
+			],
+			[
+				"pla",
+				"playSong"
+			],
+			[
+				"mar",
+				"mario_tempo"
+			],
+			[
+				"active",
+				"activeConfig"
+			],
+			[
+				"tw",
+				"tweak_orders"
+			],
+			[
+				"pare",
+				"parameters"
+			],
+			[
+				"tweak",
+				"tweak_response"
+			],
+			[
+				"groups",
+				"groupsObject"
+			],
+			[
+				"produc",
+				"productBuilderUrlFor"
+			],
+			[
+				"thumb",
+				"thumbnails"
+			],
+			[
+				"twea",
+				"tweak_product_id"
+			],
+			[
+				"cus",
+				"customizedProductId"
+			],
+			[
+				"Model",
+				"ModelCollection"
+			],
+			[
+				"fringe",
+				"fringeTypes"
+			],
+			[
+				"onJs",
+				"onJsonCallbacks"
+			],
+			[
+				"finan",
+				"financialRoutes"
+			],
+			[
+				"submission",
+				"submissionStatus"
+			],
+			[
+				"mess",
+				"messager2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Podfile",
+			"settings":
+			{
+				"buffer_size": 44,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"new ifle",
+				"File: New File Relative to Current View"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"dl",
+				"File: Delete"
+			],
+			[
+				"new fil",
+				"File: New File Relative to Current View"
+			],
+			[
+				"newil",
+				"File: New View into File"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"ne wfile",
+				"File: New File Relative to Current View"
+			],
+			[
+				"enw file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ardu",
+				"Set Syntax: Arduino"
+			],
+			[
+				"user ",
+				"Preferences: Settings - User"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"arduino",
+				"Set Syntax: Arduino"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"new iofle",
+				"File: New View into File"
+			],
+			[
+				"new ilfe",
+				"File: New View into File"
+			],
+			[
+				"jsh",
+				"Project: Refresh Folders"
+			],
+			[
+				"mvoe",
+				"File: Move"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"cucumber",
+				"Set Syntax: Cucumber Steps"
+			],
+			[
+				"new f",
+				"File: New File Relative to Current View"
+			],
+			[
+				"new ",
+				"File: New File Relative to Current View"
+			],
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"add rep",
+				"Package Control: Add Repository"
+			],
+			[
+				"syn c",
+				"Set Syntax: C"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"jav",
+				"Set Syntax: Java"
+			],
+			[
+				"renm",
+				"File: Rename"
+			],
+			[
+				"renmae",
+				"File: Rename"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"type",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"moe",
+				"File: Move"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"set syn c",
+				"Set Syntax: C"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"new il",
+				"File: New View into File"
+			],
+			[
+				"new fiele",
+				"File: New File Relative to Current View"
+			],
+			[
+				"floo",
+				"Floobits - Join Workspace"
+			],
+			[
+				"styl",
+				"Set Syntax: Stylus"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"dle",
+				"File: Delete"
+			],
+			[
+				"moce",
+				"Git (SideBarGit): Log: summary of changes full"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"puppe",
+				"Set Syntax: Puppet"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"rean",
+				"File: Rename"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"renme",
+				"File: Rename"
+			],
+			[
+				"case",
+				"Convert Case: Title Case"
+			],
+			[
+				"new fi",
+				"File: New File Relative to Current View"
+			],
+			[
+				"dwe",
+				"Git (SideBarGit): Diff: between the index and last commit"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"Procfile",
+				"Package Control: Create Package File"
+			],
+			[
+				"nre file",
+				"Set Syntax: Dockerfile"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"nre gile",
+				"Package Control: Create Package File"
+			],
+			[
+				"rem",
+				"Emmet: Remove Tag"
+			],
+			[
+				"free",
+				"Set Syntax: FreeMarker"
+			],
+			[
+				"lowercas",
+				"Convert Case: Lower Case"
+			],
+			[
+				"down",
+				"Snippet: CMake: file(DOWNLOAD ...)"
+			],
+			[
+				"obj",
+				"Set Syntax: Objective-C++"
+			],
+			[
+				"objec",
+				"Set Syntax: Objective-C++"
+			],
+			[
+				"lowercae",
+				"Convert Case: Lower Case"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"freema",
+				"Set Syntax: FreeMarker"
+			],
+			[
+				"js",
+				"Set Syntax: JSON"
+			],
+			[
+				"frem",
+				"Set Syntax: FreeMarker"
+			],
+			[
+				"syn f",
+				"Set Syntax: FreeMarker"
+			],
+			[
+				"syntax f",
+				"Set Syntax: FreeMarker"
+			],
+			[
+				"html rails",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"rails ",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"set rails",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"reanme",
+				"File: Rename"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"docker",
+				"Set Syntax: Dockerfile"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"freemaker",
+				"Set Syntax: FreeMarker"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sve",
+				"File: Save All"
+			],
+			[
+				"auto",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"autof",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"aut",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"scala",
+				"Set Syntax: Scala"
+			],
+			[
+				"style",
+				"Snippet: stylesheet_link_tag"
+			],
+			[
+				"newfile",
+				"File: New File Relative to Current View"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"swift",
+				"Set Syntax: Swift"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"html ra",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"jdon",
+				"Set Syntax: Jade (Python)"
+			],
+			[
+				"json st",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"jsone pr",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"nw file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"nwe file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"syn bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"new fv",
+				"File: New File Relative to Current View"
+			],
+			[
+				"nre",
+				"File: New File Relative to Current View"
+			],
+			[
+				"new fiel",
+				"File: New File Relative to Current View"
+			],
+			[
+				"new fe",
+				"File: New File Relative to Current View"
+			],
+			[
+				"settings ",
+				"Preferences: Settings - User"
+			],
+			[
+				"lde",
+				"File: Delete"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"perferen",
+				"Preferences: Settings - User"
+			],
+			[
+				"new file ",
+				"File: New File Relative to Current View"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pretr",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 732.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/will/repos/Halloween 2015",
+		"/Users/will/repos/Halloween 2015/embedded",
+		"/Users/will/repos/Halloween 2015/embedded/shared",
+		"/Users/will/repos/Halloween 2015/embedded/shirt"
+	],
+	"file_history":
+	[
+		"/Users/will/repos/holloween2015/scripts/*",
+		"/Users/will/repos/holloween2015/scripts/install",
+		"/Users/will/repos/holloween2015/embedded/shirt/serial.h",
+		"/Users/will/repos/holloween2015/embedded/shirt/shirt.ino",
+		"/Users/will/repos/holloween2015/embedded/shirt/serial.cpp",
+		"/Users/will/repos/holloween2015/embedded/shirt/custom.h",
+		"/Users/will/repos/holloween2015/embedded/shirt/BlinkBean.cpp",
+		"/Users/will/repos/holloween2015/embedded/shirt/BlinkBean.h",
+		"/Users/will/repos/holloween2015/embedded/shirt/actions.h",
+		"/Users/will/repos/holloween2015/embedded/shirt/Action.h",
+		"/Users/will/repos/holloween2015/embedded/shirt/Action.cpp",
+		"/Users/will/repos/holloween2015/embedded/shirt/SerialEvent.cpp",
+		"/Users/will/repos/holloween2015/embedded/shirt/SerialEvent.h",
+		"/Users/will/repos/holloween2015/embedded/shirt/NoAction.cpp",
+		"/Users/will/repos/holloween2015/embedded/shirt/NoAction.h",
+		"/Users/will/repos/holloween2015/embedded/shirt/Rainbow.cpp",
+		"/Users/will/repos/holloween2015/embedded/shirt/Rainbow.h",
+		"/Users/will/repos/holloween2015/embedded/shirt/BeanVerify.h",
+		"/Users/will/repos/holloween2015/Podfile",
+		"/Users/will/repos/inv/features/support/step_defenitions/init_steps.rb",
+		"/Users/will/repos/inv/features/support/env.rb",
+		"/Users/will/repos/inv/Gemfile",
+		"/Users/will/repos/inv/.gitignore",
+		"/Users/will/repos/inv/features/support/world.js",
+		"/Users/will/repos/inv/package.json",
+		"/Users/will/repos/inv/features/support/step_defenitions/step_defenitions.js",
+		"/Users/will/repos/inv/lib/states/initial.js",
+		"/Users/will/repos/inv/features/004-edit-user-settings.feature",
+		"/Users/will/repos/inv/lib/states/settings/index.js",
+		"/Users/will/repos/io/embedded/o-000-000/o-000-000.ino",
+		"/Users/will/repos/io/.gitignore",
+		"/Users/will/repos/io/scripts/install",
+		"/Users/will/repos/io/embedded/i-000-000/i-000-000.ino",
+		"/Users/will/repos/io/embedded/o-000-000/aJSON.cpp",
+		"/Users/will/repos/io/embedded/i-000-001/i-000-001.ino",
+		"/Users/will/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/will/repos/inv/README.md",
+		"/Users/will/repos/inv/.travis.yml",
+		"/Users/will/repos/inv/globals.js",
+		"/Users/will/repos/inv/lib/model.js",
+		"/Users/will/repos/inv/lib/bootstrap.js",
+		"/Users/will/repos/inv/lib/states/setup.js",
+		"/Users/will/repos/inv/invoices/data/settings.json",
+		"/Users/will/repos/inv/test/fixtures/directories/default/data/settings.json",
+		"/Users/will/repos/inv/lib/models/Setting.js",
+		"/Users/will/repos/inv/features/003-managing-user-settings.feature",
+		"/Users/will/repos/inv/lib/utils.js",
+		"/Users/will/repos/inv/features/support/hooks.js",
+		"/Users/will/repos/inv/bin/invoice",
+		"/Users/will/repos/inv/features/002-add-client.feature",
+		"/Users/will/repos/inv/features/001-initial-setup.feature",
+		"/Users/will/repos/inv/index.js",
+		"/Users/will/repos/inv/features/support/step_definitions/step_definitions.js",
+		"/Users/will/repos/inv/features/support/readline.js",
+		"/Users/will/repos/inv/test/fixtures/directories/default/data/.keep",
+		"/Users/will/repos/inv/test/root/.gitkeep",
+		"/Users/will/repos/inv/features/support/step_definitions",
+		"/Users/will/repos/inv/features/001-add-client.feature",
+		"/Users/will/repos/inv/lib/models/Client.js",
+		"/Users/will/repos/inv/lib/states/invoice/index.js",
+		"/Users/will/repos/io/hooks/init",
+		"/Users/will/repos/inv/lib/states/invoice/new.js",
+		"/Users/will/repos/inv/lib/models/Invoice.js",
+		"/Users/will/repos/inv/lib/state.js",
+		"/Users/will/repos/inv/lib/states/client/new.js",
+		"/Users/will/repos/inv/invoices/data/invoices.json",
+		"/Users/will/repos/inv/lib/prompts/client/new.js",
+		"/Users/will/repos/inv/lib/prompts/initial.js",
+		"/Users/will/repos/inv/lib/prompts/invoice/new.js",
+		"/Users/will/repos/inv/lib/out.js",
+		"/Users/will/repos/inv/invoices/inv",
+		"/Users/will/repos/inv/lib/prompts/invoice/create.js",
+		"/Users/will/repos/inv/lib/models/invoice.js",
+		"/Users/will/repos/inv/lib/prompts/action.js",
+		"/Users/will/repos/inv/lib/db.js",
+		"/Users/will/repos/invoice/.gitignore",
+		"/Users/will/repos/invoice/lib/invoice/data_store.rb",
+		"/Users/will/repos/invoice/lib/invoice/version.rb",
+		"/Users/will/repos/invoice/lib/invoice.rb",
+		"/Users/will/repos/invoice/README.md",
+		"/Users/will/repos/invoice/bin/invoice",
+		"/Users/will/repos/io/ios/io/AppDelegate.swift",
+		"/Users/will/repos/io/ios/io/Toys/ToyScanner.h",
+		"/Users/will/repos/io/ios/io/Toys/ToyManager.h",
+		"/Users/will/repos/io/ios/io/Toys/Bean/BeanScanner.swift",
+		"/Users/will/repos/io/ios/io/Toys/ToyManager.m",
+		"/Users/will/repos/io/ios/io/bridge.h",
+		"/Users/will/repos/io/ios/io/Toys/Bean/BeanToy.swift",
+		"/Users/will/repos/io/ios/io/Toys/Bean/BeanData.m",
+		"/Users/will/repos/io/ios/io/Toys/Bean/BeanData.h",
+		"/Users/will/repos/io/ios/io/Toys/ToyManagerDelegate.h",
+		"/Users/will/repos/io/ios/io/Toys/ToyManagerDelegate.m",
+		"/Users/will/repos/io/ios/io/Toys/Toy.swift",
+		"/Users/will/repos/io/ios/io/Toys/Toy.h",
+		"/Users/will/repos/io/ios/io/Toys/ToyManager.swift",
+		"/Users/will/repos/io/index.ios.js",
+		"/Users/will/repos/io/js/app.js",
+		"/Users/will/repos/io/js/components/Toys.react.js",
+		"/Users/will/repos/io/scripts/synx",
+		"/Users/will/repos/io/js/styles/style.js",
+		"/Users/will/repos/io/js/view-components.js",
+		"/Users/will/repos/io/js/globals.js",
+		"/Users/will/repos/io/js/dispatchers/ToyDispatcher.js",
+		"/Users/will/repos/io/.nvm",
+		"/Users/will/repos/io/gulpfile.js",
+		"/Users/will/repos/io/.jshintrc",
+		"/Users/will/repos/io/node_modules/gulp-jshint/node_modules/.bin/jshint",
+		"/Users/will/repos/io/js/constants/ActionTypes.js",
+		"/Users/will/repos/io/hooks/pre-commit",
+		"/Users/will/Downloads/IO Toys Case.svg",
+		"/Users/will/repos/io/embedded/o-000-000/json.c",
+		"/Users/will/repos/io/README.md",
+		"/Users/will/repos/io/embedded/o-000-000/.gitignore",
+		"/Users/will/repos/io/embedded/o-000-000/../json.c",
+		"/Users/will/repos/io/embedded/o-000-000/../json.h",
+		"/Users/will/repos/io/embedded/000/i/000/main.ino",
+		"/Users/will/repos/io/embedded/000/old-o/000/000.ino",
+		"/Users/will/repos/amsterdam/travel.md",
+		"/Users/will/repos/io/Pods/Bean-iOS-OSX-SDK/source/BEAN_Globals.h",
+		"/Users/will/repos/io/Podfile",
+		"/Users/will/repos/io/moble/gulp/tasks/test.js",
+		"/Users/will/dotfiles/.gitignore",
+		"/Users/will/dotfiles/bin/oao",
+		"/Users/will/dotfiles/aliases.env.json",
+		"/Users/will/dotfiles/README.md",
+		"/Users/will/dotfiles/scripts/install/paths.js",
+		"/Users/will/dotfiles/install",
+		"/Users/will/dotfiles/aliases.json"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"BlinkEye",
+			"serialEvent",
+			"BlinkBean",
+			"val",
+			"BlinkEye",
+			"Rainbow",
+			"float",
+			"A0",
+			"inputString",
+			"root",
+			"int",
+			"json",
+			"jsonBuffer",
+			"brim",
+			"inferstructure",
+			"val",
+			" ",
+			"bean",
+			"name",
+			"save",
+			"find",
+			"spec",
+			"email",
+			"setupComplete",
+			"thingThatIWantToGoTo",
+			"thingThatIsSelected",
+			"open the",
+			" ",
+			"launch",
+			"done",
+			"cb",
+			"});\n",
+			"\"",
+			"done",
+			"World",
+			"wranch",
+			"/usr/bin/env ruby",
+			"model",
+			"client",
+			"Client",
+			"answers2",
+			"answers",
+			"path",
+			"Euler",
+			"EulerFile",
+			"Eulerfile",
+			"ToyManager",
+			"tojson",
+			"Dictionary",
+			"-",
+			"ToyManagerDelegate",
+			"inpu",
+			"r2",
+			"r1",
+			"_onChange",
+			"window",
+			"ToysStore",
+			"toyss",
+			"toys",
+			"div",
+			"ToyManager",
+			"toymana",
+			"ToysManager",
+			"input",
+			"CalendarManager",
+			"ChatApp",
+			"red",
+			" ",
+			"val",
+			" ",
+			"val",
+			"x",
+			"value",
+			"data",
+			",",
+			"\"",
+			"status_id",
+			"active",
+			",",
+			"\"",
+			"realpas",
+			"x",
+			" ",
+			"CommentBox",
+			"commentBox",
+			"CommentBox",
+			"EGYPTIAN_INVERTED ? ",
+			"egyptian",
+			"LEFT_",
+			"left",
+			"LEFT",
+			"DOUBLE_WAVE_PARAMS[4]",
+			"raise_arms",
+			"500px",
+			"steps",
+			"300",
+			"120",
+			"45",
+			"LEFT",
+			":",
+			"Step",
+			"step",
+			"Step",
+			"double_wave_action",
+			"2",
+			"WAVE_PARAMS",
+			"right",
+			"300",
+			"delay",
+			"delaay",
+			"spark",
+			"Toys",
+			"\"",
+			"../",
+			":",
+			"Toys",
+			"build:js",
+			"c.",
+			"c",
+			"cb",
+			"\"",
+			"webpack",
+			"\"",
+			"webpack",
+			"jasmineBrowser",
+			"jade",
+			"require",
+			"connection"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Podfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 44,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.1441941643.360185":
+	{
+		"height": 126.0
+	},
+	"output.build|/Users/will/repos/io/embedded/o-000-000|1441941563.999343":
+	{
+		"height": 126.0
+	},
+	"output.build|/Users/will/repos/io/embedded/o-000-000|1441941673.582923":
+	{
+		"height": 126.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/will/repos/io/embedded/o-000-000|1441941681.176248":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "Halloween 2015.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"world",
+				"features/support/world.js"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				".gi",
+				".gitignore"
+			],
+			[
+				"install",
+				"scripts/install"
+			],
+			[
+				"i000001",
+				"embedded/i-000-001/i-000-001.ino"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"step",
+				"features/support/step_defenitions/step_defenitions.js"
+			],
+			[
+				"hooks",
+				"features/support/hooks.js"
+			],
+			[
+				"002",
+				"features/002-add-client.feature"
+			],
+			[
+				"worl",
+				"features/support/world.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"addclient",
+				"features/001-add-client.feature"
+			],
+			[
+				"hookini",
+				"hooks/init"
+			],
+			[
+				"gem",
+				"invoice.gemspec"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"global",
+				"js/globals.js"
+			],
+			[
+				"globals",
+				"js/globals.js"
+			],
+			[
+				"rctwebsocketexecutor",
+				"node_modules/react-native/Libraries/WebSocket/RCTWebSocketExecutor.m"
+			],
+			[
+				"jshrc",
+				".jshintrc"
+			],
+			[
+				"jsh",
+				"node_modules/gulp-jshint/node_modules/.bin/jshint"
+			],
+			[
+				"toystore",
+				"js/stores/ToyStore.js"
+			],
+			[
+				"btle",
+				"ignore/common/device/scanner/strats/btle/btle.js"
+			],
+			[
+				"plugins",
+				"scripts/add-plugins"
+			],
+			[
+				"index.jade",
+				"src/index.jade"
+			],
+			[
+				"taskstest",
+				"moble/gulp/tasks/test.js"
+			],
+			[
+				"configconfig",
+				"embedded/teddy/config/config.h"
+			],
+			[
+				"direc",
+				"_includes/directions.md"
+			],
+			[
+				"egy",
+				"embedded/teddy/actions/egyptian.h"
+			],
+			[
+				"nav",
+				"_includes/nav.html"
+			],
+			[
+				"config",
+				"_config.yml"
+			],
+			[
+				"default",
+				"_layouts/default.html"
+			],
+			[
+				"actions",
+				"embedded/teddy/actions.h"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"teddy",
+				"embedded/teddy/teddy.ino"
+			],
+			[
+				"pins",
+				"embedded/teddy/config/pins.h"
+			],
+			[
+				"com",
+				"compile"
+			],
+			[
+				"actionreg",
+				"embedded/teddy/actionRegistry.h"
+			],
+			[
+				"check",
+				"scripts/check-dependencies"
+			],
+			[
+				"webpa",
+				"moble/gulp/webpack.conf.js"
+			],
+			[
+				"bundle",
+				"moble/node_modules/babel-core/node_modules/regenerator/node_modules/defs/build/bundle.sh"
+			],
+			[
+				"webpac",
+				"moble/gulp/webpack.conf.js"
+			],
+			[
+				"karma",
+				"moble/gulp/karma.conf.js"
+			],
+			[
+				"webp",
+				"moble/gulp/webpack.conf.js"
+			],
+			[
+				"webpack",
+				"moble/gulp/webpack.conf.js"
+			],
+			[
+				"web",
+				"moble/gulp/webpack.conf.js"
+			],
+			[
+				"karam",
+				"moble/gulp/karma.conf.js"
+			],
+			[
+				"test",
+				"moble/gulp/tasks/test.js"
+			],
+			[
+				"build",
+				"moble/gulp/tasks/build.js"
+			],
+			[
+				"bun",
+				"moble/www/js/bundle.js"
+			],
+			[
+				"build.js",
+				"moble/gulp/tasks/build.js"
+			],
+			[
+				"bund",
+				"moble/www/js/bundle.js"
+			],
+			[
+				"karmacon",
+				"moble/gulp/karma.conf.js"
+			],
+			[
+				"packag",
+				"moble/package.json"
+			],
+			[
+				"head",
+				"_includes/head.html"
+			],
+			[
+				"env",
+				".env"
+			],
+			[
+				"precomm",
+				"pre-commit_tests"
+			],
+			[
+				"alltes",
+				"all_tests"
+			],
+			[
+				"emailjade",
+				"views/workspace/flows/submissions/email.jade"
+			],
+			[
+				"cordova.js",
+				"platforms/ios/CordovaLib/cordova.js"
+			],
+			[
+				"index",
+				"www/index.html"
+			],
+			[
+				"emu",
+				"scripts/emulate"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"em",
+				"emulate"
+			],
+			[
+				"script",
+				"www/js/script.js"
+			],
+			[
+				"main",
+				"src/main.ts"
+			],
+			[
+				"wwwinde",
+				"www/index.html"
+			],
+			[
+				"react.js",
+				"node_modules/react/react.js"
+			],
+			[
+				"pacakge",
+				"package.json"
+			],
+			[
+				"flowassignmen",
+				"views/workspace/flows/assignments.jade"
+			],
+			[
+				"vag",
+				"Vagrantfile"
+			],
+			[
+				"assignmentsjade",
+				"views/workspace/flows/assignments.jade"
+			],
+			[
+				"time",
+				"timecard"
+			],
+			[
+				"tweak",
+				"sites/app/assets/javascripts/modules/tweak/tweak.js.erb"
+			],
+			[
+				"angualr",
+				"node_modules/angular/angular.js"
+			],
+			[
+				"jque",
+				"node_modules/jquery/dist/jquery.js"
+			],
+			[
+				"led",
+				"embedded/out/led.ino"
+			],
+			[
+				"financial",
+				"lib/controllers/reports/financial.js"
+			],
+			[
+				"amount",
+				"public/resources/templates/flows/financial/amount.html"
+			],
+			[
+				"pre",
+				"pre-commit_tests"
+			],
+			[
+				"controllerfile",
+				"lib/controllers/files.js"
+			],
+			[
+				"flas",
+				"flash"
+			],
+			[
+				"hcmouselea",
+				"sites/app/assets/javascripts/directives/hc/mouseleave.js"
+			],
+			[
+				"applicationcss",
+				"sites/app/assets/stylesheets/application.css"
+			],
+			[
+				"commonmenu",
+				"sites/app/assets/stylesheets/common/menu.css.styl.erb"
+			],
+			[
+				"root",
+				"sites/app/assets/javascripts/controllers/root.coffee"
+			],
+			[
+				"rootcoffee",
+				"sites/app/assets/javascripts/controllers/root.coffee"
+			],
+			[
+				"searchcoffee",
+				"sites/app/assets/javascripts/controllers/search.coffee"
+			],
+			[
+				"navigat",
+				"sites/app/assets/javascripts/directives/navigation.coffee"
+			],
+			[
+				"navigationcodd",
+				"printcloud/vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.12/lib/active_record/migration/command_recorder.rb"
+			],
+			[
+				"commoncss",
+				"sites/app/assets/stylesheets/common/account.css.styl"
+			],
+			[
+				"navigationtop",
+				"sites/app/views/fragments/_navigation_top.slim"
+			],
+			[
+				"icon",
+				"sites/public/icomoon45218/icons.css"
+			],
+			[
+				"productpageheader",
+				"sites/app/assets/javascripts/modules/product-page/header.css.styl"
+			],
+			[
+				"headermessage",
+				"sites/app/assets/stylesheets/modules/header-message.css.styl"
+			],
+			[
+				"directivesnavigation",
+				"sites/app/assets/javascripts/directives/navigation.coffee"
+			],
+			[
+				"navigationmenu",
+				"sites/app/views/fragments/_navigation_menu.slim"
+			],
+			[
+				"navigationslim",
+				"sites/app/views/fragments/_navigation.slim"
+			],
+			[
+				"tweakjs",
+				"sites/app/assets/javascripts/modules/tweak/tweak.js.erb"
+			],
+			[
+				"wave",
+				"teddy/Wave.cpp"
+			],
+			[
+				"initialize",
+				"sites/app/assets/javascripts/initialize.coffee"
+			],
+			[
+				"templatesacounthome",
+				"sites/app/assets/javascripts/templates/account/home.jst.eco"
+			],
+			[
+				"modal",
+				"sites/app/assets/javascripts/directives/modal.coffee"
+			],
+			[
+				"templatespdffinanc",
+				"templates/pdf/jsmf_financial_template.ftl"
+			],
+			[
+				"controllerimporter",
+				"lib/controllers/importer.js"
+			],
+			[
+				"commonproducts",
+				"sites/app/assets/stylesheets/common/products.css.styl.erb"
+			],
+			[
+				"browsedesigns",
+				"sites/app/assets/javascripts/modules/tweak/browse-designs/browse-designs.js"
+			],
+			[
+				"viewsfragmentproduct",
+				"sites/app/views/fragments/_product.slim"
+			],
+			[
+				"modelcart",
+				"sites/app/models/cart.rb"
+			],
+			[
+				"sitesmodelorder",
+				"sites/app/models/order.rb"
+			],
+			[
+				"configur",
+				"sites/app/assets/javascripts/modules/configurator/configurator.js"
+			],
+			[
+				"sitemodelorderrb",
+				"sites/app/models/order.rb"
+			],
+			[
+				"locking",
+				"sites/app/assets/javascripts/modules/tweak/product-locking.js"
+			],
+			[
+				"browsedesignsjst",
+				"sites/app/assets/javascripts/modules/tweak/browse-designs/browse-designs.jst.eco"
+			],
+			[
+				"tweakcontrolelr",
+				"sites/app/controllers/tweak_controller.rb"
+			],
+			[
+				"commonstyl",
+				"sites/app/assets/stylesheets/common/account.css.styl"
+			],
+			[
+				"pagination",
+				"sites/app/assets/javascripts/modules/tweak/browse-designs/pagination.css.setl"
+			],
+			[
+				"browsedesignspagin",
+				"sites/app/assets/javascripts/modules/tweak/browse-designs/pagination.jst.eco"
+			],
+			[
+				"browsedesignsjsteco",
+				"sites/app/assets/javascripts/modules/tweak/browse-designs/browse-designs.jst.eco"
+			],
+			[
+				"browsedesigns.js",
+				"sites/app/assets/javascripts/modules/tweak/browse-designs/browse-designs.js"
+			],
+			[
+				"hcretryi",
+				"sites/app/assets/javascripts/directives/hc/retry-image-on-error.js"
+			],
+			[
+				"modelinvoicerb",
+				"shared/models/invoice.rb"
+			],
+			[
+				"sitesmodelcart",
+				"sites/app/models/cart.rb"
+			],
+			[
+				"designedonline",
+				"sites/app/assets/javascripts/modules/configurator/order-types/designed-online/designed-online.jst.eco"
+			],
+			[
+				"sitesmodelorderrb",
+				"sites/app/models/order.rb"
+			],
+			[
+				"sitesmodeluserrb",
+				"sites/app/models/user.rb"
+			],
+			[
+				"modelorder",
+				"shared/models/order.rb"
+			],
+			[
+				"cartcontroller",
+				"sites/app/controllers/cart_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1074.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 282.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

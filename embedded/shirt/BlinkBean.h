@@ -1,0 +1,1 @@
+../shared/BlinkBean.h

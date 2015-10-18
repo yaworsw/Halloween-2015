@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+cd "$(dirname "$0")/.."
+
+cd ./embedded/shirt
+
+ln -s ../shared/* . 2> /dev/null
+
+rm costume.ino
+
+cp ../shared/costume.ino shirt.ino
