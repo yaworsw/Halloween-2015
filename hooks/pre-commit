@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd "$(dirname "$0")/../.."
+
+synx Halloween\ 2015.xcodeproj

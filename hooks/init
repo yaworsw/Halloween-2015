@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+
+Dir["#{__dir__}/*"].each do |src|
+    if not /init$/ =~ src
+        FileUtils.cp(src, "#{__dir__}/../.git/hooks/#{File.basename(src)}")
+    end
+end

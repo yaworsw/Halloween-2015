@@ -79,10 +79,10 @@
 		BEE881F81BD35C6F003C4EF6 = {
 			isa = PBXGroup;
 			children = (
-				BEE882031BD35C6F003C4EF6 /* Halloween 2015 */,
-				BEE882021BD35C6F003C4EF6 /* Products */,
-				AAB5C7426207E0E3E52677D2 /* Pods */,
 				762BA841C4ABCC1B84975A39 /* Frameworks */,
+				BEE882031BD35C6F003C4EF6 /* Halloween 2015 */,
+				AAB5C7426207E0E3E52677D2 /* Pods */,
+				BEE882021BD35C6F003C4EF6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +100,12 @@
 				BEE8822C1BD35E43003C4EF6 /* Models */,
 				BEE8822B1BD35E2F003C4EF6 /* Views */,
 				BEE882041BD35C6F003C4EF6 /* AppDelegate.swift */,
-				BEE8821F1BD35CE7003C4EF6 /* threadManagement.swift */,
-				BEE882201BD35CE7003C4EF6 /* bridge.h */,
-				BEE882081BD35C6F003C4EF6 /* Main.storyboard */,
 				BEE8820B1BD35C6F003C4EF6 /* Assets.xcassets */,
-				BEE8820D1BD35C6F003C4EF6 /* LaunchScreen.storyboard */,
 				BEE882101BD35C6F003C4EF6 /* Info.plist */,
+				BEE8820D1BD35C6F003C4EF6 /* LaunchScreen.storyboard */,
+				BEE882081BD35C6F003C4EF6 /* Main.storyboard */,
+				BEE882201BD35CE7003C4EF6 /* bridge.h */,
+				BEE8821F1BD35CE7003C4EF6 /* threadManagement.swift */,
 			);
 			path = "Halloween 2015";
 			sourceTree = "<group>";
@@ -113,23 +113,23 @@
 		BEE8822B1BD35E2F003C4EF6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BEE882171BD35CE7003C4EF6 /* CostumeTableViewCell.swift */,
-				BEE8821A1BD35CE7003C4EF6 /* CostumesViewController.swift */,
 				BEE8821B1BD35CE7003C4EF6 /* CostumeButtonActionTableViewCell.swift */,
+				BEE882171BD35CE7003C4EF6 /* CostumeTableViewCell.swift */,
 				BEE8821D1BD35CE7003C4EF6 /* CostumeViewController.swift */,
+				BEE8821A1BD35CE7003C4EF6 /* CostumesViewController.swift */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		BEE8822C1BD35E43003C4EF6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				BEE8822D1BD35E50003C4EF6 /* CostumeTypes */,
+				BEE8821E1BD35CE7003C4EF6 /* Costume.swift */,
 				BEE8821C1BD35CE7003C4EF6 /* CostumeAction.swift */,
 				BEE882191BD35CE7003C4EF6 /* CostumeManager.swift */,
-				BEE8821E1BD35CE7003C4EF6 /* Costume.swift */,
 			);
-			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		BEE8822D1BD35E50003C4EF6 /* CostumeTypes */ = {
@@ -137,7 +137,7 @@
 			children = (
 				BEE8822F1BD35E62003C4EF6 /* Bean */,
 			);
-			name = CostumeTypes;
+			path = CostumeTypes;
 			sourceTree = "<group>";
 		};
 		BEE8822F1BD35E62003C4EF6 /* Bean */ = {
@@ -146,7 +146,7 @@
 				BEE882161BD35CE7003C4EF6 /* BeanCostume.swift */,
 				BEE882181BD35CE7003C4EF6 /* BeanCostumeScanner.swift */,
 			);
-			name = Bean;
+			path = Bean;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +282,7 @@
 				BEE882091BD35C6F003C4EF6 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		BEE8820D1BD35C6F003C4EF6 /* LaunchScreen.storyboard */ = {
@@ -290,6 +291,7 @@
 				BEE8820E1BD35C6F003C4EF6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
