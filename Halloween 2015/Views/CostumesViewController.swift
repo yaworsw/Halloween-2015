@@ -5,11 +5,21 @@
 //  Created by William Yaworsky on 10/17/15.
 //  Copyright © 2015 William Yaworsky. All rights reserved.
 //
+//  This view displays a list of costumes that have been discovered
+//
 
 import UIKit
 
+/**
+    The costumeManager singleton
+
+    Since we have methods in CostumesViewController which are named costumeManager we need to create an alternate way to reference the costumeManager singleton
+*/
 internal let globalCostumeManager = costumeManager
 
+/**
+    
+*/
 class CostumesViewController: UIViewController, CostumeManagerDelegate, UITableViewDataSource, CostumeTableViewCellDelegate {
 
     @IBOutlet weak var scanButton: UIBarButtonItem!

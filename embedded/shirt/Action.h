@@ -8,7 +8,6 @@
 #define ACTION_H
 
 #include <Arduino.h>
-#include <Adafruit_NeoPixel.h>
 
 /**
  * Action class

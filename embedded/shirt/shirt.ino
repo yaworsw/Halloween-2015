@@ -8,11 +8,11 @@
 
 #include "actions.h"
 #include "SerialHelper.h"
+#include "neopixel.h"
 
 #define LOOP_DELAY               10
 #define CURRENT_ACTION_OFF_DELAY 10
 
-Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 SerialHelper serialHelper;
 Action* activeAction;
 
