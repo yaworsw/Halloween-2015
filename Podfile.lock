@@ -1,10 +1,13 @@
 PODS:
+  - AudioKit (2.1.1)
   - Bean-iOS-OSX-SDK (0.10.0)
 
 DEPENDENCIES:
+  - AudioKit (~> 2.1.1)
   - Bean-iOS-OSX-SDK
 
 SPEC CHECKSUMS:
+  AudioKit: 54c92607d7c0fe14035793e81afe1717324ce5fa
   Bean-iOS-OSX-SDK: 7396a43e999a2e53c16e89ff302ffea5fcc1c4c5
 
 COCOAPODS: 0.38.2

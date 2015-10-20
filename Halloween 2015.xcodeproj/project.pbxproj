@@ -22,6 +22,7 @@
 		BEE882281BD35CE7003C4EF6 /* CostumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8821D1BD35CE7003C4EF6 /* CostumeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		BEE882291BD35CE7003C4EF6 /* Costume.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8821E1BD35CE7003C4EF6 /* Costume.swift */; settings = {ASSET_TAGS = (); }; };
 		BEE8822A1BD35CE7003C4EF6 /* threadManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8821F1BD35CE7003C4EF6 /* threadManagement.swift */; settings = {ASSET_TAGS = (); }; };
+		BEE882311BD4AEBB003C4EF6 /* audioKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882301BD4AEBB003C4EF6 /* audioKit.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		BEE8821E1BD35CE7003C4EF6 /* Costume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Costume.swift; sourceTree = "<group>"; };
 		BEE8821F1BD35CE7003C4EF6 /* threadManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = threadManagement.swift; sourceTree = "<group>"; };
 		BEE882201BD35CE7003C4EF6 /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		BEE882301BD4AEBB003C4EF6 /* audioKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = audioKit.swift; sourceTree = "<group>"; };
 		F5860763CA2853491D19B622 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,7 @@
 				BEE882081BD35C6F003C4EF6 /* Main.storyboard */,
 				BEE882201BD35CE7003C4EF6 /* bridge.h */,
 				BEE8821F1BD35CE7003C4EF6 /* threadManagement.swift */,
+				BEE882301BD4AEBB003C4EF6 /* audioKit.swift */,
 			);
 			path = "Halloween 2015";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				BEE882261BD35CE7003C4EF6 /* CostumeButtonActionTableViewCell.swift in Sources */,
 				BEE8822A1BD35CE7003C4EF6 /* threadManagement.swift in Sources */,
 				BEE882211BD35CE7003C4EF6 /* BeanCostume.swift in Sources */,
+				BEE882311BD4AEBB003C4EF6 /* audioKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +321,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -362,6 +367,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

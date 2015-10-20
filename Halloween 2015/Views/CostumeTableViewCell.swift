@@ -22,8 +22,6 @@ class CostumeTableViewCell: UITableViewCell, CostumeDelegate {
     
     @IBOutlet weak var costumeNameLabel: UILabel!
     
-    @IBOutlet weak var batteryStatusLabel: UILabel!
-    
     var delegate: CostumeTableViewCellDelegate?
     
     var costume: Costume! {
@@ -77,7 +75,6 @@ class CostumeTableViewCell: UITableViewCell, CostumeDelegate {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        batteryStatusLabel.text = ""
     }
     
     // MARK: - CostumeDelegate methods
@@ -88,11 +85,10 @@ class CostumeTableViewCell: UITableViewCell, CostumeDelegate {
     
     func costumeDidDisconnect(costume: Costume) {
         actionButton.setTitle("Connect", forState: .Normal)
-        batteryStatusLabel.text = ""
     }
     
     func costume(costume: Costume, didUpdateBatteryVoltage: NSNumber) {
-        batteryStatusLabel.text = "Bat: \(didUpdateBatteryVoltage)v"
+        // noop
     }
     
     func costume(costume: Costume, didUpdateState state: CostumeState) {

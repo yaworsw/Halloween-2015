@@ -64,12 +64,6 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bat: 100%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXL-Wy-32K">
-                                                    <rect key="frame" x="94" y="11" width="76" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSm-Cy-YsD">
                                                     <rect key="frame" x="8" y="7" width="78" height="30"/>
                                                     <state key="normal" title="Disconnect"/>
@@ -86,20 +80,15 @@
                                                 <constraint firstItem="uFG-i5-I5l" firstAttribute="leading" secondItem="vSm-Cy-YsD" secondAttribute="trailing" constant="8" id="QlR-SV-W1l"/>
                                                 <constraint firstItem="KSN-MU-aMt" firstAttribute="centerX" secondItem="68Y-kQ-ddT" secondAttribute="centerX" id="X1a-V2-y0m"/>
                                                 <constraint firstItem="KSN-MU-aMt" firstAttribute="centerY" secondItem="68Y-kQ-ddT" secondAttribute="centerY" id="Xem-SL-DwE"/>
-                                                <constraint firstItem="YXL-Wy-32K" firstAttribute="centerY" secondItem="68Y-kQ-ddT" secondAttribute="centerY" id="lJe-88-Htf"/>
-                                                <constraint firstAttribute="leadingMargin" secondItem="YXL-Wy-32K" secondAttribute="leading" id="pXf-nz-yIO"/>
-                                                <constraint firstItem="YXL-Wy-32K" firstAttribute="leading" secondItem="vSm-Cy-YsD" secondAttribute="trailing" constant="8" id="v7V-f9-vCs"/>
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
-                                                    <exclude reference="pXf-nz-yIO"/>
                                                     <exclude reference="QlR-SV-W1l"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="actionButton" destination="uFG-i5-I5l" id="lxa-OE-QM3"/>
-                                            <outlet property="batteryStatusLabel" destination="YXL-Wy-32K" id="rKB-MU-6b7"/>
                                             <outlet property="costumeNameLabel" destination="KSN-MU-aMt" id="s63-Q1-qdj"/>
                                             <outlet property="disconnectButton" destination="vSm-Cy-YsD" id="1xB-VX-cht"/>
                                         </connections>

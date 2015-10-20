@@ -12,3 +12,9 @@
 
 #import "PTDBean.h"
 #import "PTDBeanManager.h"
+
+#import "AKFoundation.h"
+#import "AKSampler.h"
+
+#import "AKAudioInput.h"
+#import "AKFFT.h"

@@ -20,6 +20,13 @@ import UIKit
 internal let STATE_UPDATE_LOOP_INTERVAL: Double = 0.1 // in seconds
 
 /**
+    AKAudio input we'll use to generate FFTs to controll costumes
+
+    No sense in initializing a microphone per costume so we'll just do it here
+*/
+internal let microphone = AKAudioInput()
+
+/**
     A BeanCostume is a costume built using the Light Blue Bean as it's micro controller
 */
 class BeanCostume: NSObject, Costume, PTDBeanDelegate {
@@ -123,6 +130,8 @@ class BeanCostume: NSObject, Costume, PTDBeanDelegate {
     
     // MARK: - Actions / Messaging
     
+    let fft = AKFFT(input: microphone, fftSize: 2048.ak, overlap: 256.ak, windowType: AKFFT.hannWindow(), windowFilterSize: 2048.ak)
+    
     /**
         Returns the actions that this costume can do
     
@@ -132,12 +141,15 @@ class BeanCostume: NSObject, Costume, PTDBeanDelegate {
         typealias Action = CostumeAction
         return [
             Action(title: "Blink Bean", type: .Button) {
-                print("BLINK BEAN!")
-                self.bean.sendSerialString("0_0\n")
+                self.bean.sendSerialString("bb\n")
             },
             
             Action(title: "Rainbow", type: .Button) {
-                self.bean.sendSerialString("1_0\n")
+                self.bean.sendSerialString("rainbow\n")
+            },
+            
+            Action(title: "All Rainbow", type: .Button) {
+                self.bean.sendSerialString("all-rainbow\n")
             }
         ]
     }
