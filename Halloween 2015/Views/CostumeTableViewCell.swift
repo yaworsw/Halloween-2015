@@ -2,7 +2,7 @@
 //  CostumeTableViewCell.swift
 //  Halloween 2015
 //
-//  Created by William Yaworsky on 10/17/15.
+//  Created by William Yaworsky on 10/23/15.
 //  Copyright © 2015 William Yaworsky. All rights reserved.
 //
 
@@ -16,11 +16,11 @@ protocol CostumeTableViewCellDelegate {
 
 class CostumeTableViewCell: UITableViewCell, CostumeDelegate {
 
-    @IBOutlet weak var disconnectButton: UIButton!
-    
-    @IBOutlet weak var actionButton: UIButton!
-    
     @IBOutlet weak var costumeNameLabel: UILabel!
+    
+    @IBOutlet weak var manageCostumeButton: UIButton!
+    
+    @IBOutlet weak var disconnectButton: UIButton!
     
     var delegate: CostumeTableViewCellDelegate?
     
@@ -34,65 +34,60 @@ class CostumeTableViewCell: UITableViewCell, CostumeDelegate {
     var costumeState: CostumeState! {
         didSet {
             switch costumeState! {
-            case .Discovered:
+            case .Disconnected:
                 disconnectButton.hidden = true
-                actionButton.setTitle("Connect", forState: .Normal)
-                actionButton.enabled = true
+                manageCostumeButton.setTitle("Connect", forState: .Normal)
+                manageCostumeButton.enabled = true
             case .Connecting:
                 disconnectButton.hidden = true
-                actionButton.setTitle("Connecting...", forState: .Disabled)
-                actionButton.enabled = false
+                manageCostumeButton.setTitle("Connecting...", forState: .Disabled)
+                manageCostumeButton.enabled = false
             case .Connected:
                 disconnectButton.hidden = false
-                actionButton.setTitle("View", forState: .Normal)
-                actionButton.enabled = true
+                manageCostumeButton.setTitle("View", forState: .Normal)
+                manageCostumeButton.enabled = true
             case .Unknown:
                 disconnectButton.hidden = true
-                actionButton.setTitle("State Unknown", forState: .Disabled)
-                actionButton.enabled = false
+                manageCostumeButton.setTitle("State Unknown", forState: .Disabled)
+                manageCostumeButton.enabled = false
             }
         }
     }
     
-    // MARK: - actions
+    // MARK: - Button presses
     
     @IBAction func disconnectButtonTapped(sender: AnyObject) {
         costume.disconnect()
     }
     
-    @IBAction func actionButtonTapped(sender: AnyObject) {
+    @IBAction func manageCostumeTapped(sender: AnyObject) {
         switch costumeState! {
-        case .Discovered:
+        case .Disconnected:
             costume.connect()
         case .Connected:
-            delegate?.costumeTableViewCell(self, didSelectViewFor: costume)
+            delegate?.costumeTableViewCell(self, didSelectViewFor: self.costume)
         default:
             break
         }
     }
-
-    // MARK: - initialization
+    
+    // MARK: - init
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        // Initialization code
     }
-    
+
+    override func setSelected(selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
     // MARK: - CostumeDelegate methods
     
-    func costumeDidConnect(costume: Costume) {
-        actionButton.setTitle("Manage", forState: .Normal)
-    }
-    
-    func costumeDidDisconnect(costume: Costume) {
-        actionButton.setTitle("Connect", forState: .Normal)
-    }
-    
-    func costume(costume: Costume, didUpdateBatteryVoltage: NSNumber) {
-        // noop
-    }
-    
     func costume(costume: Costume, didUpdateState state: CostumeState) {
-        self.costumeState = state
+        costumeState = state
     }
     
 }

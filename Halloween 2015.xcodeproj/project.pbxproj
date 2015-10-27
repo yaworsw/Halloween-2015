@@ -12,17 +12,15 @@
 		BEE8820A1BD35C6F003C4EF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE882081BD35C6F003C4EF6 /* Main.storyboard */; };
 		BEE8820C1BD35C6F003C4EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE8820B1BD35C6F003C4EF6 /* Assets.xcassets */; };
 		BEE8820F1BD35C6F003C4EF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE8820D1BD35C6F003C4EF6 /* LaunchScreen.storyboard */; };
-		BEE882211BD35CE7003C4EF6 /* BeanCostume.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882161BD35CE7003C4EF6 /* BeanCostume.swift */; settings = {ASSET_TAGS = (); }; };
-		BEE882221BD35CE7003C4EF6 /* CostumeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882171BD35CE7003C4EF6 /* CostumeTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		BEE882231BD35CE7003C4EF6 /* BeanCostumeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882181BD35CE7003C4EF6 /* BeanCostumeScanner.swift */; settings = {ASSET_TAGS = (); }; };
-		BEE882241BD35CE7003C4EF6 /* CostumeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882191BD35CE7003C4EF6 /* CostumeManager.swift */; settings = {ASSET_TAGS = (); }; };
-		BEE882251BD35CE7003C4EF6 /* CostumesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8821A1BD35CE7003C4EF6 /* CostumesViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BEE882261BD35CE7003C4EF6 /* CostumeButtonActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8821B1BD35CE7003C4EF6 /* CostumeButtonActionTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		BEE882271BD35CE7003C4EF6 /* CostumeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8821C1BD35CE7003C4EF6 /* CostumeAction.swift */; settings = {ASSET_TAGS = (); }; };
-		BEE882281BD35CE7003C4EF6 /* CostumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8821D1BD35CE7003C4EF6 /* CostumeViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BEE882291BD35CE7003C4EF6 /* Costume.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8821E1BD35CE7003C4EF6 /* Costume.swift */; settings = {ASSET_TAGS = (); }; };
-		BEE8822A1BD35CE7003C4EF6 /* threadManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8821F1BD35CE7003C4EF6 /* threadManagement.swift */; settings = {ASSET_TAGS = (); }; };
-		BEE882311BD4AEBB003C4EF6 /* audioKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882301BD4AEBB003C4EF6 /* audioKit.swift */; settings = {ASSET_TAGS = (); }; };
+		BEE882341BDAD0B7003C4EF6 /* CostumesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882331BDAD0B7003C4EF6 /* CostumesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BEE882371BDAD1B2003C4EF6 /* CostumeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882361BDAD1B2003C4EF6 /* CostumeManager.swift */; settings = {ASSET_TAGS = (); }; };
+		BEE8823B1BDAD351003C4EF6 /* BeanCostumeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8823A1BDAD351003C4EF6 /* BeanCostumeScanner.swift */; settings = {ASSET_TAGS = (); }; };
+		BEE8823D1BDAD359003C4EF6 /* BeanCostume.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8823C1BDAD359003C4EF6 /* BeanCostume.swift */; settings = {ASSET_TAGS = (); }; };
+		BEE8823F1BDAD500003C4EF6 /* Costume.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8823E1BDAD500003C4EF6 /* Costume.swift */; settings = {ASSET_TAGS = (); }; };
+		BEE882411BDAD51A003C4EF6 /* CostumeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882401BDAD51A003C4EF6 /* CostumeScanner.swift */; settings = {ASSET_TAGS = (); }; };
+		BEE882441BDAE23C003C4EF6 /* CostumeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882431BDAE23C003C4EF6 /* CostumeTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		BEE882461BDAFCCA003C4EF6 /* CostumeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882451BDAFCCA003C4EF6 /* CostumeDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BEE882491BDB6CFB003C4EF6 /* Microphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882481BDB6CFB003C4EF6 /* Microphone.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,18 +32,16 @@
 		BEE8820B1BD35C6F003C4EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEE8820E1BD35C6F003C4EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEE882101BD35C6F003C4EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEE882161BD35CE7003C4EF6 /* BeanCostume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeanCostume.swift; sourceTree = "<group>"; };
-		BEE882171BD35CE7003C4EF6 /* CostumeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostumeTableViewCell.swift; sourceTree = "<group>"; };
-		BEE882181BD35CE7003C4EF6 /* BeanCostumeScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeanCostumeScanner.swift; sourceTree = "<group>"; };
-		BEE882191BD35CE7003C4EF6 /* CostumeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostumeManager.swift; sourceTree = "<group>"; };
-		BEE8821A1BD35CE7003C4EF6 /* CostumesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostumesViewController.swift; sourceTree = "<group>"; };
-		BEE8821B1BD35CE7003C4EF6 /* CostumeButtonActionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostumeButtonActionTableViewCell.swift; sourceTree = "<group>"; };
-		BEE8821C1BD35CE7003C4EF6 /* CostumeAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostumeAction.swift; sourceTree = "<group>"; };
-		BEE8821D1BD35CE7003C4EF6 /* CostumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostumeViewController.swift; sourceTree = "<group>"; };
-		BEE8821E1BD35CE7003C4EF6 /* Costume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Costume.swift; sourceTree = "<group>"; };
-		BEE8821F1BD35CE7003C4EF6 /* threadManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = threadManagement.swift; sourceTree = "<group>"; };
 		BEE882201BD35CE7003C4EF6 /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
-		BEE882301BD4AEBB003C4EF6 /* audioKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = audioKit.swift; sourceTree = "<group>"; };
+		BEE882331BDAD0B7003C4EF6 /* CostumesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostumesViewController.swift; sourceTree = "<group>"; };
+		BEE882361BDAD1B2003C4EF6 /* CostumeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostumeManager.swift; sourceTree = "<group>"; };
+		BEE8823A1BDAD351003C4EF6 /* BeanCostumeScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeanCostumeScanner.swift; sourceTree = "<group>"; };
+		BEE8823C1BDAD359003C4EF6 /* BeanCostume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeanCostume.swift; sourceTree = "<group>"; };
+		BEE8823E1BDAD500003C4EF6 /* Costume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Costume.swift; sourceTree = "<group>"; };
+		BEE882401BDAD51A003C4EF6 /* CostumeScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostumeScanner.swift; sourceTree = "<group>"; };
+		BEE882431BDAE23C003C4EF6 /* CostumeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostumeTableViewCell.swift; sourceTree = "<group>"; };
+		BEE882451BDAFCCA003C4EF6 /* CostumeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostumeDetailViewController.swift; sourceTree = "<group>"; };
+		BEE882481BDB6CFB003C4EF6 /* Microphone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Microphone.swift; sourceTree = "<group>"; };
 		F5860763CA2853491D19B622 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -99,57 +95,71 @@
 		BEE882031BD35C6F003C4EF6 /* Halloween 2015 */ = {
 			isa = PBXGroup;
 			children = (
-				BEE8822C1BD35E43003C4EF6 /* Models */,
-				BEE8822B1BD35E2F003C4EF6 /* Views */,
+				BEE882471BDB6CD1003C4EF6 /* DataSources */,
+				BEE882421BDAD55F003C4EF6 /* Models */,
+				BEE882321BDAD09E003C4EF6 /* Views */,
 				BEE882041BD35C6F003C4EF6 /* AppDelegate.swift */,
 				BEE8820B1BD35C6F003C4EF6 /* Assets.xcassets */,
 				BEE882101BD35C6F003C4EF6 /* Info.plist */,
 				BEE8820D1BD35C6F003C4EF6 /* LaunchScreen.storyboard */,
 				BEE882081BD35C6F003C4EF6 /* Main.storyboard */,
 				BEE882201BD35CE7003C4EF6 /* bridge.h */,
-				BEE8821F1BD35CE7003C4EF6 /* threadManagement.swift */,
-				BEE882301BD4AEBB003C4EF6 /* audioKit.swift */,
 			);
 			path = "Halloween 2015";
 			sourceTree = "<group>";
 		};
-		BEE8822B1BD35E2F003C4EF6 /* Views */ = {
+		BEE882321BDAD09E003C4EF6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BEE8821B1BD35CE7003C4EF6 /* CostumeButtonActionTableViewCell.swift */,
-				BEE882171BD35CE7003C4EF6 /* CostumeTableViewCell.swift */,
-				BEE8821D1BD35CE7003C4EF6 /* CostumeViewController.swift */,
-				BEE8821A1BD35CE7003C4EF6 /* CostumesViewController.swift */,
+				BEE882451BDAFCCA003C4EF6 /* CostumeDetailViewController.swift */,
+				BEE882431BDAE23C003C4EF6 /* CostumeTableViewCell.swift */,
+				BEE882331BDAD0B7003C4EF6 /* CostumesViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		BEE8822C1BD35E43003C4EF6 /* Models */ = {
+		BEE882351BDAD184003C4EF6 /* Costume */ = {
 			isa = PBXGroup;
 			children = (
-				BEE8822D1BD35E50003C4EF6 /* CostumeTypes */,
-				BEE8821E1BD35CE7003C4EF6 /* Costume.swift */,
-				BEE8821C1BD35CE7003C4EF6 /* CostumeAction.swift */,
-				BEE882191BD35CE7003C4EF6 /* CostumeManager.swift */,
+				BEE882381BDAD338003C4EF6 /* Types */,
+				BEE8823E1BDAD500003C4EF6 /* Costume.swift */,
+				BEE882361BDAD1B2003C4EF6 /* CostumeManager.swift */,
+				BEE882401BDAD51A003C4EF6 /* CostumeScanner.swift */,
+			);
+			path = Costume;
+			sourceTree = "<group>";
+		};
+		BEE882381BDAD338003C4EF6 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				BEE882391BDAD341003C4EF6 /* Bean */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		BEE882391BDAD341003C4EF6 /* Bean */ = {
+			isa = PBXGroup;
+			children = (
+				BEE8823C1BDAD359003C4EF6 /* BeanCostume.swift */,
+				BEE8823A1BDAD351003C4EF6 /* BeanCostumeScanner.swift */,
+			);
+			path = Bean;
+			sourceTree = "<group>";
+		};
+		BEE882421BDAD55F003C4EF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BEE882351BDAD184003C4EF6 /* Costume */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		BEE8822D1BD35E50003C4EF6 /* CostumeTypes */ = {
+		BEE882471BDB6CD1003C4EF6 /* DataSources */ = {
 			isa = PBXGroup;
 			children = (
-				BEE8822F1BD35E62003C4EF6 /* Bean */,
+				BEE882481BDB6CFB003C4EF6 /* Microphone.swift */,
 			);
-			path = CostumeTypes;
-			sourceTree = "<group>";
-		};
-		BEE8822F1BD35E62003C4EF6 /* Bean */ = {
-			isa = PBXGroup;
-			children = (
-				BEE882161BD35CE7003C4EF6 /* BeanCostume.swift */,
-				BEE882181BD35CE7003C4EF6 /* BeanCostumeScanner.swift */,
-			);
-			path = Bean;
+			path = DataSources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,18 +272,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE882241BD35CE7003C4EF6 /* CostumeManager.swift in Sources */,
-				BEE882281BD35CE7003C4EF6 /* CostumeViewController.swift in Sources */,
-				BEE882231BD35CE7003C4EF6 /* BeanCostumeScanner.swift in Sources */,
-				BEE882271BD35CE7003C4EF6 /* CostumeAction.swift in Sources */,
-				BEE882251BD35CE7003C4EF6 /* CostumesViewController.swift in Sources */,
-				BEE882221BD35CE7003C4EF6 /* CostumeTableViewCell.swift in Sources */,
-				BEE882291BD35CE7003C4EF6 /* Costume.swift in Sources */,
+				BEE882441BDAE23C003C4EF6 /* CostumeTableViewCell.swift in Sources */,
+				BEE8823B1BDAD351003C4EF6 /* BeanCostumeScanner.swift in Sources */,
+				BEE882371BDAD1B2003C4EF6 /* CostumeManager.swift in Sources */,
 				BEE882051BD35C6F003C4EF6 /* AppDelegate.swift in Sources */,
-				BEE882261BD35CE7003C4EF6 /* CostumeButtonActionTableViewCell.swift in Sources */,
-				BEE8822A1BD35CE7003C4EF6 /* threadManagement.swift in Sources */,
-				BEE882211BD35CE7003C4EF6 /* BeanCostume.swift in Sources */,
-				BEE882311BD4AEBB003C4EF6 /* audioKit.swift in Sources */,
+				BEE882341BDAD0B7003C4EF6 /* CostumesViewController.swift in Sources */,
+				BEE882411BDAD51A003C4EF6 /* CostumeScanner.swift in Sources */,
+				BEE8823F1BDAD500003C4EF6 /* Costume.swift in Sources */,
+				BEE882491BDB6CFB003C4EF6 /* Microphone.swift in Sources */,
+				BEE8823D1BDAD359003C4EF6 /* BeanCostume.swift in Sources */,
+				BEE882461BDAFCCA003C4EF6 /* CostumeDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
