@@ -9,6 +9,7 @@ Action* getAction() {
   while (Serial.available()) {
     char inChar = (char)Serial.read();
     if (inChar == '\n') {
+      Serial.flush();
 
       int indexOfUnderscore = tmpSerial.indexOf('_');
       if (indexOfUnderscore > 0) {
@@ -21,12 +22,18 @@ Action* getAction() {
 
       tmpSerial = "";
 
+      Serial.println(command);
+
       if (command == "bb") {
         return new Identify();
       } else if (command == "rainbow") {
         return new Rainbow();
       } else if (command == "rainbow-all") {
         return new RainbowAll();
+      } else if (command == "rainbow-shift") {
+        return new RainbowShift();
+      } else if (command == "set-leds") {
+        return new SetLEDs(params.toInt());
       }
 
     } else {

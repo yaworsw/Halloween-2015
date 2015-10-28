@@ -25,17 +25,30 @@ class CostumeDetailViewController: UIViewController {
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Identify", style: .Plain, target: self, action: "identifyCostumes")
     }
-    
+
     @IBAction func rainbowSequenceButtonWasPressed(sender: AnyObject) {
-        doAction(.Rainbow, withParams: [])
+        doAction(.Rainbow)
     }
     
     @IBAction func rainbowAllButtonWasPressed(sender: AnyObject) {
-        doAction(.RainbowAll, withParams: [])
+        doAction(.RainbowAll)
+    }
+
+    @IBAction func rainbowShiftButtonWasPressed(sender: AnyObject) {
+        doAction(.RainbowShift)
+    }
+    
+    @IBAction func setColorSliderWasMoved(sender: UISlider) {
+        let intVal = Int(sender.value)
+        doAction(.SetLEDs, withParams: [String(intVal)])
     }
     
     func identifyCostumes() {
         costumes.forEach { $0.doAction(.Identify, withParams: []) }
+    }
+    
+    func doAction(action: CostumeAction) {
+        doAction(action, withParams: [])
     }
     
     func doAction(action: CostumeAction, withParams: [String]) {

@@ -3,15 +3,11 @@
 #include "config.h"
 #include "strip.h"
 
-class Rainbow: public Action {
+class SetLEDs: public Action {
   public:
-    Rainbow();
+    SetLEDs(byte hue);
     bool tick();
     bool end();
   protected:
-    int frame = 0;
-    int frames;
-
-    byte hue = 0;
-    byte inc;
+    uint32_t hue;
 };

@@ -45,8 +45,12 @@ class BeanCostume: NSObject, Costume, PTDBeanDelegate {
             bean.sendSerialString("rainbow_\n")
         case .RainbowAll:
             bean.sendSerialString("rainbow-all_\n")
+        case .RainbowShift:
+            bean.sendSerialString("rainbow-shift_\n")
         case .SetLEDs:
             bean.sendSerialString("set-leds_\(params[0])\n")
+        case .SetBrightness:
+            bean.sendSerialString("set-bri_\(params[0])\n")
         }
     }
     

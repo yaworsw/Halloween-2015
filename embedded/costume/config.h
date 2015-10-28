@@ -1,7 +1,4 @@
-#include <Arduino.h>
-
-extern const String NAME;
-
-extern const int NUM_PIXELS;
-
-extern const int PIXEL_PIN;
+#define NAME      "Costume"
+#define PIXEL_PIN  0
+#define BRIGHTNESS 255
+#define NUM_PIXELS 30

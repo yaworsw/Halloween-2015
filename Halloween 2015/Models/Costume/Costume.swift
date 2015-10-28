@@ -17,7 +17,9 @@ enum CostumeAction {
     case Identify
     case Rainbow
     case RainbowAll
+    case RainbowShift
     case SetLEDs
+    case SetBrightness
 }
 
 protocol Costume {

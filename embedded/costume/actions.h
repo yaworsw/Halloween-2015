@@ -1,3 +1,5 @@
 #include "Identify.h"
-#include "Rainbow.h"
-#include "RainbowAll.h"
+
+#include "rainbow-animations.h"
+
+#include "SetLEDs.h"
