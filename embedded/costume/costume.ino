@@ -1,5 +1,4 @@
-// #define DEBUG 1
-
+#include "config.h"
 #include "debug.h"
 
 #include <Adafruit_NeoPixel.h>
@@ -12,7 +11,9 @@ Action* activeAction;
 
 void setup() {
   strip.begin();
+#ifdef BRIGHTNESS
   strip.setBrightness(BRIGHTNESS);
+#endif
 
   Bean.setBeanName(NAME);
 

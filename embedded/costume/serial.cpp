@@ -22,10 +22,13 @@ Action* getAction() {
 
       tmpSerial = "";
 
-      Serial.println(command);
+      pp("Received command: ");
+      ppln(command);
 
       if (command == "bb") {
         return new Identify();
+      } else if (command == "off") {
+        return new Off();
       } else if (command == "rainbow") {
         return new Rainbow();
       } else if (command == "rainbow-all") {

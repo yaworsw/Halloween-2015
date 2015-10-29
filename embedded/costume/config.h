@@ -1,4 +1,6 @@
-#define NAME      "Costume"
+// #define DEBUG
+
+#define NAME      "Earrings"
 #define PIXEL_PIN  0
-#define BRIGHTNESS 255
-#define NUM_PIXELS 30
+#define BRIGHTNESS 150
+#define NUM_PIXELS 7
