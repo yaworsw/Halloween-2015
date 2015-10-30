@@ -6,7 +6,7 @@ SetLEDs::SetLEDs(byte hue) {
 
 bool SetLEDs::tick() {
   for (int i = 0; i < NUM_PIXELS; i++) {
-    strip.setPixelColor(i, this->hue);
+    setPixelColor(i, this->hue);
   }
 
   return false;

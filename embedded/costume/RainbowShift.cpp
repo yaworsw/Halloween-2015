@@ -9,7 +9,7 @@ bool RainbowShift::tick() {
 
   for (int i = 0; i < NUM_PIXELS; i++) {
     byte hue = (this->hue + (this->inc * i)) % 255;
-    strip.setPixelColor(i, Wheel(hue));
+    setPixelColor(i, Wheel(hue));
   }
   this->frame++;
 

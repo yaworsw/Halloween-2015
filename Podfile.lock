@@ -1,13 +1,20 @@
 PODS:
-  - AudioKit (2.1.1)
   - Bean-iOS-OSX-SDK (0.10.0)
+  - EZAudio (1.1.2):
+    - EZAudio/Full (= 1.1.2)
+  - EZAudio/Core (1.1.2)
+  - EZAudio/Full (1.1.2):
+    - EZAudio/Core
+    - TPCircularBuffer (~> 0.0)
+  - TPCircularBuffer (0.0.1)
 
 DEPENDENCIES:
-  - AudioKit (~> 2.1.1)
   - Bean-iOS-OSX-SDK
+  - EZAudio
 
 SPEC CHECKSUMS:
-  AudioKit: 54c92607d7c0fe14035793e81afe1717324ce5fa
   Bean-iOS-OSX-SDK: 7396a43e999a2e53c16e89ff302ffea5fcc1c4c5
+  EZAudio: 01373de2b1257b77be1bf13753fb1c4ea8a9777e
+  TPCircularBuffer: 949e9632b9fb99b7274d7b2296ee22bff5841e35
 
 COCOAPODS: 0.38.2

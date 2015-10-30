@@ -1,11 +1,20 @@
 #include "config.h"
 #include "debug.h"
 
+#include "globals.h"
 #include <Adafruit_NeoPixel.h>
 #include "strip.h"
 #include "serial.h"
 
-#define DELAY 100
+#define CLEAR_ACTIVE_ACTION() \
+  delete activeAction;        \
+  activeAction = NULL
+
+#define DELAY() \
+  show();       \
+  delay(delayInterval)
+
+#define SERIAL_BAUD_RATE 9600
 
 Action* activeAction;
 
@@ -17,10 +26,10 @@ void setup() {
 
   Bean.setBeanName(NAME);
 
-  Serial.begin(9600);
+  Serial.begin(SERIAL_BAUD_RATE);
   Serial.flush();
 
-  strip.show();
+  show();
 
   ppln("Setup complete");
 }
@@ -32,10 +41,9 @@ void loop() {
     if (activeAction) {
       while (activeAction->end()) {
         ppln("Waiting for previous action to complete");
-        delay(DELAY);
+        DELAY();
       }
-      delete activeAction;
-      activeAction = NULL;
+      CLEAR_ACTIVE_ACTION();
     }
     activeAction = newAction;
   }
@@ -44,10 +52,8 @@ void loop() {
     ppln("Ticking action");
     if (!activeAction->tick()) {
       ppln("Action complete");
-      delete activeAction;
-      activeAction = NULL;
+      CLEAR_ACTIVE_ACTION();
     }
-    strip.show();
-    delay(DELAY);
+    DELAY();
   }
 }

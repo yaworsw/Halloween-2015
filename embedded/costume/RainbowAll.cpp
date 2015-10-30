@@ -9,7 +9,7 @@ bool RainbowAll::tick() {
   this->hue = (this->hue + this->inc) % 255;
 
   for (int i = 0; i < NUM_PIXELS; i++) {
-    strip.setPixelColor(i, Wheel(this->hue));
+    setPixelColor(i, Wheel(this->hue));
   }
   this->frame++;
 

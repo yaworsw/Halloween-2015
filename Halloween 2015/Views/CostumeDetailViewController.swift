@@ -43,6 +43,16 @@ class CostumeDetailViewController: UIViewController {
         doAction(.SetLEDs, withParams: [String(intVal)])
     }
     
+    @IBAction func setBrightnessSliderWasMoved(sender: UISlider) {
+        let intVal = Int(sender.value)
+        doAction(.SetBrightness, withParams: [String(intVal)])
+    }
+    
+    @IBAction func animationSpeedSliderWasMoved(sender: UISlider) {
+        let intVal = Int(sender.value)
+        doAction(.SetAnimationSpeed, withParams: [String(intVal)])
+    }
+    
     func identifyCostumes() {
         costumes.forEach { $0.doAction(.Identify, withParams: []) }
     }

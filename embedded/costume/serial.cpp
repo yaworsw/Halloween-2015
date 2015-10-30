@@ -37,6 +37,17 @@ Action* getAction() {
         return new RainbowShift();
       } else if (command == "set-leds") {
         return new SetLEDs(params.toInt());
+      } else {
+        //
+        // These don't return actions.  Instead they take some immediate effect
+        // mostly used to do some sort of configuration.
+        //
+        if (command == "change-delay") {
+          delayInterval = params.toInt();
+        } else if (command == "set-bri") {
+          strip.setBrightness(params.toInt());
+        }
+        return NULL;
       }
 
     } else {

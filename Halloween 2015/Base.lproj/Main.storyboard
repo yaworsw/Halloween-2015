@@ -183,31 +183,64 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set Color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8kZ-Hi-SVc">
-                                                <rect key="frame" x="8" y="36" width="72" height="21"/>
+                                                <rect key="frame" x="8" y="36" width="71.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="122.5" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="bbH-ct-5Sb">
-                                                <rect key="frame" x="86" y="32" width="508" height="31"/>
+                                                <rect key="frame" x="85.5" y="32" width="508.5" height="31"/>
                                                 <connections>
                                                     <action selector="setColorSliderWasMoved:" destination="Y6X-DS-6Nw" eventType="touchUpInside" id="HAH-LO-mxr"/>
+                                                </connections>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animation Speed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ip4-zx-3ZH">
+                                                <rect key="frame" x="8" y="64.5" width="130.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="100" minValue="20" maxValue="600" translatesAutoresizingMaskIntoConstraints="NO" id="ChU-jy-YD7">
+                                                <rect key="frame" x="144.5" y="60" width="449.5" height="31"/>
+                                                <connections>
+                                                    <action selector="animationSpeedSliderWasMoved:" destination="Y6X-DS-6Nw" eventType="touchUpInside" id="yrb-hs-PGz"/>
+                                                </connections>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brightness" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pf9-dF-Itt">
+                                                <rect key="frame" x="8" y="93" width="82" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="255" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="EtF-w2-VEY">
+                                                <rect key="frame" x="96" y="89" width="498" height="31"/>
+                                                <connections>
+                                                    <action selector="setBrightnessSliderWasMoved:" destination="Y6X-DS-6Nw" eventType="touchUpInside" id="AKz-lK-i06"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="ChU-jy-YD7" secondAttribute="trailing" constant="8" id="1I5-I1-mRF"/>
                                             <constraint firstItem="bbH-ct-5Sb" firstAttribute="leading" secondItem="8kZ-Hi-SVc" secondAttribute="trailing" constant="8" id="3jZ-qn-SEO"/>
                                             <constraint firstAttribute="trailing" secondItem="bbH-ct-5Sb" secondAttribute="trailing" constant="8" id="76a-2W-3Hz"/>
+                                            <constraint firstItem="pf9-dF-Itt" firstAttribute="top" secondItem="ip4-zx-3ZH" secondAttribute="bottom" constant="8" id="7F1-Zc-ci5"/>
                                             <constraint firstItem="UMD-zI-7j8" firstAttribute="centerY" secondItem="xki-ry-dsO" secondAttribute="centerY" id="7d9-O9-jCD"/>
                                             <constraint firstItem="g1V-3T-2u3" firstAttribute="centerY" secondItem="fv6-lf-evs" secondAttribute="centerY" id="83L-gE-Ggf"/>
                                             <constraint firstItem="fv6-lf-evs" firstAttribute="centerY" secondItem="xki-ry-dsO" secondAttribute="centerY" id="8QE-d0-NfZ"/>
                                             <constraint firstItem="xki-ry-dsO" firstAttribute="leading" secondItem="tht-md-wi9" secondAttribute="leading" constant="8" id="BVW-QZ-48Z"/>
                                             <constraint firstItem="bbH-ct-5Sb" firstAttribute="leading" secondItem="8kZ-Hi-SVc" secondAttribute="trailing" constant="8" id="EWI-IP-nvy"/>
+                                            <constraint firstItem="bbH-ct-5Sb" firstAttribute="leading" secondItem="8kZ-Hi-SVc" secondAttribute="trailing" constant="8" id="Fce-Ls-Ddm"/>
+                                            <constraint firstItem="ChU-jy-YD7" firstAttribute="centerY" secondItem="ip4-zx-3ZH" secondAttribute="centerY" id="G5T-a9-8JK"/>
+                                            <constraint firstItem="ip4-zx-3ZH" firstAttribute="leading" secondItem="tht-md-wi9" secondAttribute="leading" constant="8" id="GNG-Zc-BGb"/>
+                                            <constraint firstItem="EtF-w2-VEY" firstAttribute="leading" secondItem="pf9-dF-Itt" secondAttribute="trailing" constant="8" id="I4W-Lo-cS0"/>
+                                            <constraint firstAttribute="trailing" secondItem="EtF-w2-VEY" secondAttribute="trailing" constant="8" id="JXI-Ta-ik9"/>
                                             <constraint firstItem="8kZ-Hi-SVc" firstAttribute="top" secondItem="xki-ry-dsO" secondAttribute="bottom" constant="7.5" id="Jb3-8J-p6z"/>
                                             <constraint firstItem="bbH-ct-5Sb" firstAttribute="leading" secondItem="8kZ-Hi-SVc" secondAttribute="trailing" constant="8" id="KAT-hG-9aZ"/>
+                                            <constraint firstItem="pf9-dF-Itt" firstAttribute="leading" secondItem="tht-md-wi9" secondAttribute="leading" constant="8" id="LnB-6r-rh5"/>
                                             <constraint firstItem="UMD-zI-7j8" firstAttribute="centerY" secondItem="g1V-3T-2u3" secondAttribute="centerY" id="PiJ-Ej-Z2g"/>
                                             <constraint firstAttribute="trailing" secondItem="bbH-ct-5Sb" secondAttribute="trailing" constant="8" id="Q0q-jC-wVk"/>
+                                            <constraint firstItem="ip4-zx-3ZH" firstAttribute="top" secondItem="8kZ-Hi-SVc" secondAttribute="bottom" constant="8" id="UiE-cD-sc5"/>
                                             <constraint firstItem="xki-ry-dsO" firstAttribute="top" secondItem="tht-md-wi9" secondAttribute="top" constant="8" id="Vfs-VR-90j"/>
                                             <constraint firstItem="UMD-zI-7j8" firstAttribute="width" secondItem="g1V-3T-2u3" secondAttribute="width" id="a2o-93-FP0"/>
                                             <constraint firstItem="xki-ry-dsO" firstAttribute="leading" secondItem="tht-md-wi9" secondAttribute="leading" constant="8" id="alt-fv-ZJh"/>
@@ -218,16 +251,22 @@
                                             <constraint firstItem="bbH-ct-5Sb" firstAttribute="centerY" secondItem="8kZ-Hi-SVc" secondAttribute="centerY" id="gm2-Cc-go0"/>
                                             <constraint firstItem="g1V-3T-2u3" firstAttribute="width" secondItem="fv6-lf-evs" secondAttribute="width" id="h0S-z7-Fft"/>
                                             <constraint firstItem="xki-ry-dsO" firstAttribute="top" secondItem="tht-md-wi9" secondAttribute="top" constant="11" id="hLP-lz-hg6"/>
+                                            <constraint firstItem="ChU-jy-YD7" firstAttribute="leading" secondItem="ip4-zx-3ZH" secondAttribute="trailing" constant="8" id="lPP-sY-Ehd"/>
                                             <constraint firstItem="bbH-ct-5Sb" firstAttribute="centerY" secondItem="8kZ-Hi-SVc" secondAttribute="centerY" id="pES-SV-M7C"/>
+                                            <constraint firstItem="ip4-zx-3ZH" firstAttribute="top" secondItem="8kZ-Hi-SVc" secondAttribute="bottom" constant="8" id="rmg-bF-FVz"/>
                                             <constraint firstAttribute="trailing" secondItem="fv6-lf-evs" secondAttribute="trailing" constant="8" id="s3m-tg-gfz"/>
+                                            <constraint firstAttribute="bottom" secondItem="ip4-zx-3ZH" secondAttribute="bottom" constant="8" id="sh4-Qs-CYw"/>
                                             <constraint firstItem="bbH-ct-5Sb" firstAttribute="leading" secondItem="8kZ-Hi-SVc" secondAttribute="trailing" constant="8" id="tWH-J3-6d6"/>
                                             <constraint firstItem="fv6-lf-evs" firstAttribute="leading" secondItem="g1V-3T-2u3" secondAttribute="trailing" constant="8" id="wcK-vs-UEV"/>
+                                            <constraint firstItem="pf9-dF-Itt" firstAttribute="centerY" secondItem="EtF-w2-VEY" secondAttribute="centerY" id="xrT-cZ-6mP"/>
                                             <constraint firstItem="g1V-3T-2u3" firstAttribute="centerY" secondItem="xki-ry-dsO" secondAttribute="centerY" id="ypr-0D-9sa"/>
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
                                                 <exclude reference="BVW-QZ-48Z"/>
                                                 <exclude reference="hLP-lz-hg6"/>
+                                                <exclude reference="rmg-bF-FVz"/>
+                                                <exclude reference="sh4-Qs-CYw"/>
                                                 <exclude reference="3jZ-qn-SEO"/>
                                                 <exclude reference="76a-2W-3Hz"/>
                                                 <exclude reference="EWI-IP-nvy"/>

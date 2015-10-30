@@ -20,7 +20,6 @@
 		BEE882411BDAD51A003C4EF6 /* CostumeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882401BDAD51A003C4EF6 /* CostumeScanner.swift */; settings = {ASSET_TAGS = (); }; };
 		BEE882441BDAE23C003C4EF6 /* CostumeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882431BDAE23C003C4EF6 /* CostumeTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		BEE882461BDAFCCA003C4EF6 /* CostumeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882451BDAFCCA003C4EF6 /* CostumeDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BEE882491BDB6CFB003C4EF6 /* Microphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE882481BDB6CFB003C4EF6 /* Microphone.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +40,6 @@
 		BEE882401BDAD51A003C4EF6 /* CostumeScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostumeScanner.swift; sourceTree = "<group>"; };
 		BEE882431BDAE23C003C4EF6 /* CostumeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostumeTableViewCell.swift; sourceTree = "<group>"; };
 		BEE882451BDAFCCA003C4EF6 /* CostumeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostumeDetailViewController.swift; sourceTree = "<group>"; };
-		BEE882481BDB6CFB003C4EF6 /* Microphone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Microphone.swift; sourceTree = "<group>"; };
 		F5860763CA2853491D19B622 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -157,7 +155,6 @@
 		BEE882471BDB6CD1003C4EF6 /* DataSources */ = {
 			isa = PBXGroup;
 			children = (
-				BEE882481BDB6CFB003C4EF6 /* Microphone.swift */,
 			);
 			path = DataSources;
 			sourceTree = "<group>";
@@ -279,7 +276,6 @@
 				BEE882341BDAD0B7003C4EF6 /* CostumesViewController.swift in Sources */,
 				BEE882411BDAD51A003C4EF6 /* CostumeScanner.swift in Sources */,
 				BEE8823F1BDAD500003C4EF6 /* Costume.swift in Sources */,
-				BEE882491BDB6CFB003C4EF6 /* Microphone.swift in Sources */,
 				BEE8823D1BDAD359003C4EF6 /* BeanCostume.swift in Sources */,
 				BEE882461BDAFCCA003C4EF6 /* CostumeDetailViewController.swift in Sources */,
 			);

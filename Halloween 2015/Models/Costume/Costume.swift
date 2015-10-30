@@ -20,6 +20,7 @@ enum CostumeAction {
     case RainbowShift
     case SetLEDs
     case SetBrightness
+    case SetAnimationSpeed
 }
 
 protocol Costume {
