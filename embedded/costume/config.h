@@ -1,12 +1,12 @@
 #define DEBUG
 
-#define VEST
+#define DRESS
 
 #ifdef  DRESS
 #define NAME      "Dress"
 #define PIXEL_PIN  0
 #define BRIGHTNESS 255
-#define NUM_PIXELS 30
+#define NUM_PIXELS 40
 // #define DOUBLE
 // #define MIRROR
 #endif
@@ -42,7 +42,7 @@
 #define NAME      "Belt"
 #define PIXEL_PIN  0
 #define BRIGHTNESS 150
-#define NUM_PIXELS 60
+#define NUM_PIXELS 56
 // #define DOUBLE
 // #define MIRROR
 #endif

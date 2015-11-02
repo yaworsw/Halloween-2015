@@ -218,6 +218,17 @@
                                                     <action selector="setBrightnessSliderWasMoved:" destination="Y6X-DS-6Nw" eventType="touchUpInside" id="AKz-lK-i06"/>
                                                 </connections>
                                             </slider>
+                                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hCI-Ef-f8L">
+                                                <rect key="frame" x="0.0" y="492" width="600" height="44"/>
+                                                <items>
+                                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ETN-zu-iqa"/>
+                                                    <barButtonItem title="Off" id="Gmx-wB-PCs">
+                                                        <connections>
+                                                            <action selector="offButtonWasTapped:" destination="Y6X-DS-6Nw" id="SDf-fz-DEv"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                </items>
+                                            </toolbar>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -229,6 +240,7 @@
                                             <constraint firstItem="g1V-3T-2u3" firstAttribute="centerY" secondItem="fv6-lf-evs" secondAttribute="centerY" id="83L-gE-Ggf"/>
                                             <constraint firstItem="fv6-lf-evs" firstAttribute="centerY" secondItem="xki-ry-dsO" secondAttribute="centerY" id="8QE-d0-NfZ"/>
                                             <constraint firstItem="xki-ry-dsO" firstAttribute="leading" secondItem="tht-md-wi9" secondAttribute="leading" constant="8" id="BVW-QZ-48Z"/>
+                                            <constraint firstAttribute="trailing" secondItem="hCI-Ef-f8L" secondAttribute="trailing" id="Cor-w0-1bt"/>
                                             <constraint firstItem="bbH-ct-5Sb" firstAttribute="leading" secondItem="8kZ-Hi-SVc" secondAttribute="trailing" constant="8" id="EWI-IP-nvy"/>
                                             <constraint firstItem="bbH-ct-5Sb" firstAttribute="leading" secondItem="8kZ-Hi-SVc" secondAttribute="trailing" constant="8" id="Fce-Ls-Ddm"/>
                                             <constraint firstItem="ChU-jy-YD7" firstAttribute="centerY" secondItem="ip4-zx-3ZH" secondAttribute="centerY" id="G5T-a9-8JK"/>
@@ -237,6 +249,7 @@
                                             <constraint firstAttribute="trailing" secondItem="EtF-w2-VEY" secondAttribute="trailing" constant="8" id="JXI-Ta-ik9"/>
                                             <constraint firstItem="8kZ-Hi-SVc" firstAttribute="top" secondItem="xki-ry-dsO" secondAttribute="bottom" constant="7.5" id="Jb3-8J-p6z"/>
                                             <constraint firstItem="bbH-ct-5Sb" firstAttribute="leading" secondItem="8kZ-Hi-SVc" secondAttribute="trailing" constant="8" id="KAT-hG-9aZ"/>
+                                            <constraint firstItem="hCI-Ef-f8L" firstAttribute="leading" secondItem="tht-md-wi9" secondAttribute="leading" id="KvD-1w-DVm"/>
                                             <constraint firstItem="pf9-dF-Itt" firstAttribute="leading" secondItem="tht-md-wi9" secondAttribute="leading" constant="8" id="LnB-6r-rh5"/>
                                             <constraint firstItem="UMD-zI-7j8" firstAttribute="centerY" secondItem="g1V-3T-2u3" secondAttribute="centerY" id="PiJ-Ej-Z2g"/>
                                             <constraint firstAttribute="trailing" secondItem="bbH-ct-5Sb" secondAttribute="trailing" constant="8" id="Q0q-jC-wVk"/>
@@ -257,6 +270,7 @@
                                             <constraint firstAttribute="trailing" secondItem="fv6-lf-evs" secondAttribute="trailing" constant="8" id="s3m-tg-gfz"/>
                                             <constraint firstAttribute="bottom" secondItem="ip4-zx-3ZH" secondAttribute="bottom" constant="8" id="sh4-Qs-CYw"/>
                                             <constraint firstItem="bbH-ct-5Sb" firstAttribute="leading" secondItem="8kZ-Hi-SVc" secondAttribute="trailing" constant="8" id="tWH-J3-6d6"/>
+                                            <constraint firstAttribute="bottom" secondItem="hCI-Ef-f8L" secondAttribute="bottom" id="vf8-V4-M18"/>
                                             <constraint firstItem="fv6-lf-evs" firstAttribute="leading" secondItem="g1V-3T-2u3" secondAttribute="trailing" constant="8" id="wcK-vs-UEV"/>
                                             <constraint firstItem="pf9-dF-Itt" firstAttribute="centerY" secondItem="EtF-w2-VEY" secondAttribute="centerY" id="xrT-cZ-6mP"/>
                                             <constraint firstItem="g1V-3T-2u3" firstAttribute="centerY" secondItem="xki-ry-dsO" secondAttribute="centerY" id="ypr-0D-9sa"/>

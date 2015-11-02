@@ -21,6 +21,7 @@ enum CostumeAction {
     case SetLEDs
     case SetBrightness
     case SetAnimationSpeed
+    case Off
 }
 
 protocol Costume {

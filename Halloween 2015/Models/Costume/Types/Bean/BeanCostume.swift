@@ -53,6 +53,8 @@ class BeanCostume: NSObject, Costume, PTDBeanDelegate {
             bean.sendSerialString("set-bri_\(params[0])\n")
         case .SetAnimationSpeed:
             bean.sendSerialString("change-delay_\(params[0])\n")
+        case .Off:
+            bean.sendSerialString("off_\n")
         }
     }
     

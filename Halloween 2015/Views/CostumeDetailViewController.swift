@@ -53,6 +53,10 @@ class CostumeDetailViewController: UIViewController {
         doAction(.SetAnimationSpeed, withParams: [String(intVal)])
     }
     
+    @IBAction func offButtonWasTapped(sender: AnyObject) {
+        doAction(.Off)
+    }
+    
     func identifyCostumes() {
         costumes.forEach { $0.doAction(.Identify, withParams: []) }
     }
